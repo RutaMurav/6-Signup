@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(156, 156, 201);
+background-color: yellowgreen;
 
 }
 .container{
@@ -15,39 +15,29 @@ body{
     width: 40%;
     float: left;
     background-color: darkgoldenrod;
-    
+    }
 
-}
+    .main-title{
+        display: inline-block;
+        background-color: blueviolet;
+        width: 10pxs;
+        font-size: xx-large;
+        }
+    .link{
+        display: inline-block;
+        float: left;
+        }
+    .symbol{
+        display: inline-block;
+        float: left;
+    }
+    .close{
+        display: inline-block;
+        float: right;
+    }
+    .form{
+        display: inline-block;
+        
+    }
 
-main{
-
-}
-
-main > div:first-child{
-
-}
-
-h1{
-
-}
-
-main > div:first-child > div {
-
-}
-a{
-
-}
-span{
-
-}
-
-main > div:last-child{
-
-}
-.right-column {
-    display: inline-block;
-
-}
-form{
-
-}
+    }
