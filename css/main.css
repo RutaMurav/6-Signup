@@ -1,0 +1,53 @@
+body{
+    background-color: rgb(156, 156, 201);
+
+}
+.container{
+      display: inline-block;
+      width: 800px;
+      margin-top: 100px;
+      margin-left: calc(100% - 800px) / 2;
+      background-color: crimson;
+
+}
+.left-column{
+  
+    width: 40%;
+    float: left;
+    background-color: darkgoldenrod;
+    
+
+}
+
+main{
+
+}
+
+main > div:first-child{
+
+}
+
+h1{
+
+}
+
+main > div:first-child > div {
+
+}
+a{
+
+}
+span{
+
+}
+
+main > div:last-child{
+
+}
+.right-column {
+    display: inline-block;
+
+}
+form{
+
+}
