@@ -1,13 +1,12 @@
 body{
     margin:0;
     padding: 0;
-    vertical-align: top;
+    margin-left: calc(20% - 100px);
+    margin-right: calc(20% - 100px);
     box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-height: 625px;
-  background-color: #008EAE;
+height: 650px;
   background-image: linear-gradient(#0090AD, #5D1F6D );
-  
 
 }
 .container{
@@ -27,6 +26,7 @@ height: 625px;
     background-image: url(../img/left-column.png);
     padding: 40px;
     background-repeat: no-repeat;
+    background-size: cover;
     box-sizing: border-box;
    
     
@@ -41,11 +41,20 @@ height: 625px;
         font-size: xx-large;
         }
     .link{
-        display: inline-block;
+        display: inline-flex;
+        color: white;
         float: left;
         font: underline;
+        font-size: 10px;
         }
-
+.symbol{
+    display: inline-flex;
+        color: white;
+        float: left;
+        font: underline;
+        font-size: 10px;
+        }
+}
         .right-column{
             width: 60%;
             float: left;
@@ -55,6 +64,7 @@ height: 625px;
         }
         .close{
             float: right;
+
         }
         .form{
             margin-top: calc(78% - 200px);
