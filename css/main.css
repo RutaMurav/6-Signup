@@ -1,72 +1,72 @@
 body{
     margin:0;
     padding: 0;
-    margin-left: calc(20% - 100px);
-    margin-right: calc(20% - 100px);
-    box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-height: 650px;
   background-image: linear-gradient(#0090AD, #5D1F6D );
 
 }
 .container{
       display: inline-block;
       width: 800px;
-      margin-top: 100px;
-      margin-left: calc(100% - 800px) / 2;
+      margin: 100px calc((100% - 800px) / 2) 0;
       background-color: #FFFFFF;
 
 }
 .left-column{
   
     width: 40%;
-    height: 500px;
+    height: 495px;
     float: left;
-    background-color: brown;
     background-image: url(../img/left-column.png);
     padding: 40px;
     background-repeat: no-repeat;
     background-size: cover;
     box-sizing: border-box;
-   
+    color: white;}
     
 
 
-    }
 
     .main-title{
         display: inline-block;
-        background-color: blueviolet;
+        color: white;
         width: 10pxs;
         font-size: xx-large;
         }
-    .link{
-        display: inline-flex;
-        color: white;
-        float: left;
-        font: underline;
-        font-size: 10px;
-        }
-.symbol{
-    display: inline-flex;
-        color: white;
-        float: left;
-        font: underline;
-        font-size: 10px;
-        }
-}
-        .right-column{
-            width: 60%;
+
+        .symbol{
+            display: inline-block;
+            color: white;
             float: left;
-            text-align: center;
-            box-sizing: border-box;           
-
+            font: underline;
+            font-size: 10px;;
         }
-        .close{
-            float: right;
 
-        }
+        .link{
+            display: inline-block;
+            color: white;
+            float: left;
+            font: underline;
+            font-size: 10px;
+            }
+
+.right-column{
+    display: inline-block;
+    width: 60%;
+    height: 491px;
+}
+.close{
+    color: black;
+    float: right;
+
+}
         .form{
-            margin-top: calc(78% - 200px);
-            
-        }
+            display: inline-block;
+            width: 100%;
+            display:table-caption;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+        .form-row{
+            display: inline-block;
+ 
