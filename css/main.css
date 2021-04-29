@@ -56,8 +56,15 @@ body{
     height: 491px;
 }
 .close{
-    color: black;
-    float: right;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    position:absolute;
+    top: 95px;
+    left: 1100px;
+
+
+
 
 }
         .form{
