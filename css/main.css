@@ -71,6 +71,7 @@ body{
             display: inline-block;
             width: 100%;
             display:table-caption;
+            margin-top: auto;
             font-family:Georgia, 'Times New Roman', Times, serif;
 
 }
